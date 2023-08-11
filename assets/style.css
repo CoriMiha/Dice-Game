@@ -1,0 +1,35 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+}
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #e17055;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+}
+.display{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.display img{
+    width: 12rem; 
+}
+#new-roll-btn{
+    background-color: #fdcb6e;
+    width: 200px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    height: 3rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
